@@ -1,5 +1,10 @@
 /*
 
+
+https://www.youtube.com/watch?v=0lkpbQgfNJk
+https://www.youtube.com/watch?v=kGcl_K4LfG8
+
+
 Начало работы 
     в папке проекта запустить 
     npm init playwright@latest
