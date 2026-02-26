@@ -53,19 +53,32 @@ https://stepik.org/lesson/1595530/step/1?unit=1617125
     Не повторяющиеся утверждения
     Эти утверждения выполняются только один раз.
 
-        toBe()	            - Проверяет идентичность значений.
+        toBe()	            - Проверяет идентичность значений.                         expect(строка).toBe('Практика page.evaluate()');
         toEqual()	        - Проверяет глубокое равенство.
+                                                                expect(объект).toEqual({
+                                                                    title: expect.stringContaining('Пользователь #'),
+                                                                    date: expect.stringContaining('Дата создания:'),
+                                                                    color: 'rgba(0, 0, 0, 0)', // прозрачный фон
+                                                                    });
+
         toBeNull()	        - Значение равно null.
         toBeDefined()	    - Значение определено.
-        toBeGreaterThan()	- Значение больше указанного.
-        toContain()	        - Строка содержит подстроку или массив элемент.
+        toBeGreaterThan()	- Значение больше указанного.                              expect(значение).toBeGreaterThan(0);
+        toContain()	        - Строка содержит подстроку или массив элемент.            expect(строка).toContain('Исходное содержимое');
 
 
 
 
 
     Продвинутые проверки:
-        
+        toHaveClass(/alert-success/)               - есть класс
+
+        toHaveValue                                - Проверка инпута 
+
+        toHaveJSProperty                           - Проверка состояния элемента, которое меняется JavaScript-скриптами,
+
+toHaveCount - точное количество DOM-узлов.
+
         toHaveCount(5)                             - Проверка количества элементов
 
         toHaveCSS('color', 'rgb(255, 0, 0)');    - Проверка CSS-стилей
@@ -74,6 +87,9 @@ https://stepik.org/lesson/1595530/step/1?unit=1617125
 
         not.toBeVisible();                         - Негативные проверки
         .not.toHaveURL('error');                   - Негативные проверки
+
+        toHaveURL                                  - Проверка url
+
 
 
 
