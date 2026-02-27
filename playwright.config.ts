@@ -13,7 +13,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
-  //testDir: './example-youtube',
+
   snapshotPathTemplate: '{testDir}/screenshots/{testFilePath}/{arg}{ext}',
   /* Run tests in files in parallel */
   fullyParallel: true,
@@ -36,10 +36,32 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    {
+
+     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
+    
+    /*
+    авторизация
+    {
+      name: 'setup',
+      testMatch: /.*auth\.spec\.ts/,
+    },
+    {
+      name: 'chromium',
+      use: {
+        ...devices['Desktop Chrome'],
+        storageState: 'playwright/.auth/user.json',
+      },
+      dependencies: ['setup'],
+       testMatch: /.*example\.spec\.ts/,
+    },
+
+    */
+
+
+
     /* 
     {
       name: 'firefox',
