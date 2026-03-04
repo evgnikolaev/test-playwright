@@ -1,0 +1,15 @@
+- form "Вход":
+  - button "Назад":
+    - img
+  - button "Закрыть форму":
+    - img
+  - heading "Вход" [level=3]
+  - text: Почта
+  - textbox "Введите почту"
+  - button "Продолжить" [disabled]:
+    - paragraph: Продолжить
+  - contentinfo:
+    - button "Зарегистрироваться по телефону"
+  - link "Yandex SmartCaptcha":
+    - /url: https://yandex.ru/legal/smartcaptcha_notice/
+  - text: "- Обработка данных"
