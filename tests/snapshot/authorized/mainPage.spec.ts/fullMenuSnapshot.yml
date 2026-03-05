@@ -39,8 +39,6 @@
       - link "Спорт":
         - /url: /feeds/sport/
   - separator
-  - paragraph: Войдите, чтобы подписываться на каналы, комментировать видео и оставлять реакции
-  - button "Вход и регистрация"
   - button "Активировать промокод"
   - separator
   - region "Моё":
@@ -77,22 +75,22 @@
     - list "RUTUBE всегда с вами":
       - listitem:
         - link "Установить из Google Play":
-          - /url: https://redirect.appmetrica.yandex.com/serve/822089280250761172?client_id=%7Bclient_id%7D&utm_source=rutube.ru&utm_medium=referral&utm_campaign=landing_app
+          - /url: https://redirect.appmetrica.yandex.com/serve/822089280250761172?client_id=%7Bclient_id%7D&utm_source=rutube.ru&utm_medium=referral&utm_campaign=landing_app&user_id=56877604
       - listitem:
         - link "Ярлык для iOS":
           - /url: https://rutube.ru/info/rutubeapp/
       - listitem:
         - link "Установить из Huawei App Gallery":
-          - /url: https://redirect.appmetrica.yandex.com/serve/389285442492612095?utm_source=rutube.ru&utm_medium=referral&utm_campaign=landing_app
+          - /url: https://redirect.appmetrica.yandex.com/serve/389285442492612095?user_id=56877604&utm_source=rutube.ru&utm_medium=referral&utm_campaign=landing_app
       - listitem:
         - link "Установить из RuStore":
-          - /url: https://redirect.appmetrica.yandex.com/serve/533400622968373086?utm_source=rutube.ru&utm_medium=referral&utm_campaign=landing_app
+          - /url: https://redirect.appmetrica.yandex.com/serve/533400622968373086?user_id=56877604&utm_source=rutube.ru&utm_medium=referral&utm_campaign=landing_app
       - listitem:
         - link "Установить из RuMarket":
-          - /url: https://redirect.appmetrica.yandex.com/serve/389285425212041727?utm_source=rutube.ru&utm_medium=referral&utm_campaign=landing_app
+          - /url: https://redirect.appmetrica.yandex.com/serve/389285425212041727?user_id=56877604&utm_source=rutube.ru&utm_medium=referral&utm_campaign=landing_app
       - listitem:
         - link "Установить из Galaxy Store":
-          - /url: https://redirect.appmetrica.yandex.com/serve/605458194927465783?utm_source=rutube.ru&utm_medium=referral&utm_campaign=landing_app
+          - /url: https://redirect.appmetrica.yandex.com/serve/605458194927465783?user_id=56877604&utm_source=rutube.ru&utm_medium=referral&utm_campaign=landing_app
   - text: Больше от RUTUBE
   - list "Секция инструкции":
     - listitem:

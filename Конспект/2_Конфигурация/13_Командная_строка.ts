@@ -32,6 +32,7 @@ https://stepik.org/lesson/1597868/step/1?unit=1619506
 Режимы отладки
 
         npx playwright test --debug	        Запускает Playwright Inspector для отладки тестов (включает UI-инспектор, останавливает тесты перед завершением).
+        npx playwright test -g 'test' --debug
         npx playwright test --headed	        Запускает тесты в режиме с UI браузера, что помогает отладке.
         npx playwright test --ui	        Открывает интерактивный режим с управлением тестами, просмотром шагов и возможностью их перезапуска.
 
