@@ -1,5 +1,4 @@
 import { test, expect } from "../../fixtures/fixtures";
-import { MainPage } from "../../pages/mainPage";
 
 test("Проверка доступности элементов хедера неавторизованного пользователя", async ({ mainPage }) => {
   await mainPage.headerHasCorrectAriaSnaphsot();
