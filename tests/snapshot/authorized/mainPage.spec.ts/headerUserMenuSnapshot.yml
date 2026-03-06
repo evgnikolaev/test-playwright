@@ -1,0 +1,24 @@
+- link "Иконка канала channel56877604 channel56877604 ru****@yandex.ru Добавьте номер телефона":
+  - /url: /profile/info/
+  - img "Иконка канала channel56877604":
+    - img "Иконка канала channel56877604"
+  - paragraph: channel56877604
+  - paragraph: ru****@yandex.ru
+  - paragraph: Добавьте номер телефона
+  - img
+- list:
+  - listitem:
+    - link "Профиль":
+      - /url: /profile/
+      - paragraph: Профиль
+  - listitem:
+    - link "Мой канал":
+      - /url: /channel/56877604/
+      - paragraph: Мой канал
+  - listitem:
+    - link "Студия RUTUBE":
+      - /url: https://studio.rutube.ru/
+      - paragraph: Студия RUTUBE
+- button "Выйти":
+  - img
+  - text: ""
