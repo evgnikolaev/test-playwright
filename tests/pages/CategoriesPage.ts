@@ -13,7 +13,10 @@ export class CategoriesPage extends BasePage {
   }
 
   async contentPageHascorrectLayout() {
-    this.checkLayoutByScreenshot(this.contentPageLocator, "categoriesPage.png");
+    await this.checkLayoutByScreenshot(
+      this.contentPageLocator,
+      "categoriesPage.png",
+    );
   }
 
   async hideHeader() {
